@@ -11,12 +11,27 @@ the Arduino. On receiving the signal from the sensor, the Arduino send a signal 
 Buzzer and the Relay, which cuts the power supply to the motor, making the car STOP 
 and preventing any mishap.
 
+# Objective of the Project
+Every system is automated in order to face new challenges. In the present days Automated systems have fewer manual operations,flexibility,
+reliability and accurate. Due to this demand every field prefers automated control systems. We usually come across drink and driving cases where
+drunk drivers crash their cars under the influence of alcohol
+causing damage to property and life. So here we propose an innovative system to eliminate such cases. 
+
+Our proposed system would be constantly monitoring the driver breath by placing it on the driver wheel or somewhere the driver’s breath can be constantly 
+monitored by it. So, if a driver is drunk and tries to drive the system detects alcohol presence in his/her breathe and locks the engine so that the 
+vehicle fails to start. In another case if the driver is not drunk while he starts the vehicle and engine is started but he/she drinks while driving 
+the sensor still detects alcohol in his breath and stops the engine so that the car would not accelerate any further and driver can steer it to roadside. 
+So, the alcohol sensor is used to monitor uses breath and constantly sends signals to the microcontroller.
+
+# Circuit Diagram
 ![normal diagram](https://github.com/dignagpakhare/Alcohol-detection-and-engine-lock-system/assets/150357421/440b5777-0771-44c3-b3b7-72cb7fe4ab6c)
 
-# Components
-1. Arduino UNO
-2. MQ-3 SENSOR
-3. 16x2 LCD Display
-4. Relay
-5. Switch
-6. Buzzer
+# Parts Used
+```
+ Parts Used in this Project
+├── Arduino UNO
+├── MQ-3 SENSOR
+├── 16x2 LCD Display
+├── Relay
+├── Switch
+├── Buzzer
