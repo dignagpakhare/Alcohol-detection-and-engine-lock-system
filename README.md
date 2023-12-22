@@ -10,3 +10,13 @@ threat to other people on the road. The MQ3 Sensor senses alcohol and sends a si
 the Arduino. On receiving the signal from the sensor, the Arduino send a signal to the 
 Buzzer and the Relay, which cuts the power supply to the motor, making the car STOP 
 and preventing any mishap.
+
+![normal diagram](https://github.com/dignagpakhare/Alcohol-detection-and-engine-lock-system/assets/150357421/440b5777-0771-44c3-b3b7-72cb7fe4ab6c)
+
+# Components
+1. Arduino UNO
+2. MQ-3 SENSOR
+3. 16x2 LCD Display
+4. Relay
+5. Switch
+6. Buzzer
